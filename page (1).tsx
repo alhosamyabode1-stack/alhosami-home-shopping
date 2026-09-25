@@ -1,0 +1,2 @@
+import {store} from '@/lib/store'; import Link from 'next/link';
+export default function Offers(){return <main className="container section"><Link href="/">← الرئيسية</Link><div className="hero" style={{marginTop:20,borderRadius:22,padding:35}}><h1>🔥 العروض والتخفيضات</h1><p>تابع هذه الصفحة للعروض، وانضم إلى قناة الواتساب ليصلك الجديد مباشرة.</p><a className="btn" href={store.channel} target="_blank">📢 انضم إلى قناة الواتساب</a></div></main>}
